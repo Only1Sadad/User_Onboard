@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="JV7-wn32zKuYDLQU8YIo">
+    <mxGraphModel dx="778" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hrPXqNAS-0acvUGABH1v-11" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hrPXqNAS-0acvUGABH1v-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Start Script&lt;div&gt;Check: Is Root ?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-12" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hrPXqNAS-0acvUGABH1v-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Create Groups:&lt;div&gt;Quality, Inspection, Material&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-13" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hrPXqNAS-0acvUGABH1v-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Check File: newhires.csv&lt;/div&gt;&lt;div&gt;&amp;nbsp;exists?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-14" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hrPXqNAS-0acvUGABH1v-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="For Each User in CSV&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Validate Department&lt;/li&gt;&lt;li&gt;Create User&lt;/li&gt;&lt;li&gt;Set Password&lt;/li&gt;&lt;li&gt;Configure Password Expiry&lt;/li&gt;&lt;li&gt;Log All Actions&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="190" x="140" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Complete Log&lt;div&gt;Summary&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="175" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-6" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="hrPXqNAS-0acvUGABH1v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-7" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="hrPXqNAS-0acvUGABH1v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrPXqNAS-0acvUGABH1v-8" edge="1" parent="1" source="hrPXqNAS-0acvUGABH1v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="hrPXqNAS-0acvUGABH1v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
