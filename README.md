@@ -16,8 +16,8 @@ This Bash script automates the process of onboarding new employees by:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/user-onboarding-script.git
-cd user-onboarding-script
+git clone https://github.com/Only1Sadad/User-Onboarding-Script.git
+cd User-Onboarding-Script
 
 # 2. Prepare your CSV file
 cp newhires.csv.example newhires.csv
@@ -73,7 +73,7 @@ Daniel,Rick,Material
 
 ```bash
 # 1. Download the script
-wget https://raw.githubusercontent.com/yourusername/user-onboarding-script/main/onboarding.sh
+wget https://raw.githubusercontent.com/Only1Sadad/User-Onboarding-Script/refs/heads/main/onboarding.sh
 
 # 2. Review the script (ALWAYS review scripts before running!)
 cat onboarding.sh
@@ -96,7 +96,7 @@ All actions are logged to: **`/var/log/onboarding.logs`**
 **Example Log Output:**
 ```
 Group: Quality Already exists 08-03-2026 10:13:44
-Group: Inspection Already exists 08-03-2026 10:13:44
+Group: Inspection Already exists 08-03-2026 10:13:4i4
 Group: Material Already exists 08-03-2026 10:13:44
 User: Angela.Smith Successfully Created 08-03-2026 10:13:44
 Password Successfully Created for: Angela.Smith 08-03-2026 10:13:44
