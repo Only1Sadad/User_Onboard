@@ -187,10 +187,11 @@ ls -la newhires.csv
 ## Repository Structure
 
 ```
-user-onboarding-script/
+User-Onboarding-Script/
 ├── README.md              # This file
+├── newhires.csv           # Example CSV template
 ├── onboarding.sh          # Main script
-├── newhires.csv.example   # Example CSV template
+├── user_flow.png          # Flow Chart
 ```
 
 ## Want to Contribe
